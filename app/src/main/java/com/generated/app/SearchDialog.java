@@ -2,6 +2,7 @@ package com.generated.app;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -44,7 +45,7 @@ public class SearchDialog extends Dialog {
         TextView tvTitle = new TextView(getContext());
         tvTitle.setText("חיפוש מתקדם");
         tvTitle.setTextSize(20);
-        tvTitle.setTextStyle(android.graphics.Typeface.BOLD);
+        tvTitle.setTypeface(null, Typeface.BOLD);
         layout.addView(tvTitle);
 
         etSearchQuery = new EditText(getContext());

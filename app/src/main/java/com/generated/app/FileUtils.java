@@ -155,7 +155,7 @@ public class FileUtils {
             ZipInputStream zis = new ZipInputStream(new BufferedInputStream(new FileInputStream(zipFile)));
             ZipEntry ze;
             byte[] buffer = new byte[8192];
-            while ((ze = zis.readNextEntry()) != null) {
+            while ((ze = zis.getNextEntry()) != null) {
                 File file = new File(destDir, ze.getName());
                 // Prevent Zip Slip vulnerability
                 if (!file.getCanonicalPath().startsWith(destDir.getCanonicalPath())) {

@@ -2,6 +2,7 @@ package com.generated.app;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -37,7 +38,7 @@ public class StorageAnalyzerDialog extends Dialog {
         TextView tvTitle = new TextView(getContext());
         tvTitle.setText("ניתוח שטח אחסון");
         tvTitle.setTextSize(20);
-        tvTitle.setTextStyle(android.graphics.Typeface.BOLD);
+        tvTitle.setTypeface(null, Typeface.BOLD);
         layout.addView(tvTitle);
 
         tvStatus = new TextView(getContext());
@@ -52,7 +53,7 @@ public class StorageAnalyzerDialog extends Dialog {
         TextView tvSubtitle = new TextView(getContext());
         tvSubtitle.setText("הקבצים הגדולים ביותר:");
         tvSubtitle.setPadding(0, 16, 0, 8);
-        tvSubtitle.setTextStyle(android.graphics.Typeface.BOLD);
+        tvSubtitle.setTypeface(null, Typeface.BOLD);
         layout.addView(tvSubtitle);
 
         lvLargestFiles = new ListView(getContext());
