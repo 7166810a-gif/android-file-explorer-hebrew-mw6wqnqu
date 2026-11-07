@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">סייר הקבצים</string>
+    <string name="tab_home">בית</string>
+    <string name="tab_explorer">סייר</string>
+    <string name="tab_analyzer">ניתוח שטח</string>
+    <string name="tab_search">חיפוש</string>
+    <string name="tab_settings">הגדרות</string>
+
+    <string name="internal_storage">אחסון פנימי</string>
+    <string name="sd_card">כרטיס זיכרון</string>
+    <string name="usb_storage">אחסון USB</string>
+    <string name="storage_usage">%1$s בשימוש מתוך %2$s</string>
+
+    <string name="cat_all">הכל</string>
+    <string name="cat_images">תמונות</string>
+    <string name="cat_video">וידאו</string>
+    <string name="cat_audio">מוזיקה</string>
+    <string name="cat_docs">מסמכים</string>
+    <string name="cat_apps">אפליקציות</string>
+    <string name="cat_archives">ארכיונים</string>
+    <string name="cat_code">טקסט וקוד</string>
+
+    <string name="shortcut_downloads">הורדות</string>
+    <string name="shortcut_camera">מצלמה</string>
+    <string name="shortcut_favorites">מועדפים</string>
+    <string name="shortcut_recents">קבצים אחרונים</string>
+
+    <string name="action_copy">העתק</string>
+    <string name="action_move">העבר</string>
+    <string name="action_delete">מחק</string>
+    <string name="action_rename">שנה שם</string>
+    <string name="action_batch_rename">שינוי שם מרובה</string>
+    <string name="action_share">שיתוף</string>
+    <string name="action_duplicate">שכפול</string>
+    <string name="action_zip">דחוס ל-ZIP</string>
+    <string name="action_extract">חלץ ארכיון</string>
+    <string name="action_encrypt">הצפן (AES)</string>
+    <string name="action_decrypt">פענח (AES)</string>
+    <string name="action_hash">חישוב גיבוב</string>
+    <string name="action_properties">מאפיינים</string>
+    <string name="action_new_folder">תיקייה חדשה</string>
+    <string name="action_new_file">קובץ חדש</string>
+
+    <string name="confirm_delete">האם למחוק את %1$d הקבצים שנבחרו?</string>
+    <string name="permission_required">יש לאשר הרשאת גישה לקבצים כדי להשתמש בסייר</string>
+    <string name="grant_permission">אישור הרשאה</string>
+    <string name="empty_folder">התיקייה ריקה</string>
+    <string name="search_hint">חפש קובץ או תיקייה...</string>
+
+    <string name="btn_cancel">ביטול</string>
+    <string name="btn_ok">אישור</string>
+    <string name="btn_save">שמירה</string>
+    <string name="btn_apply">החל</string>
+
+    <string name="title_storage_analyzer">ניתוח שטח אחסון</string>
+    <string name="title_search">חיפוש מתקדם</string>
+    <string name="title_properties">מאפייני קובץ</string>
+    <string name="title_text_editor">עורך טקסט וקוד</string>
+    <string name="title_hex_viewer">מציג HEX בינארי</string>
+    <string name="title_archive_browser">סייר ארכיונים</string>
+    <string name="title_apk_info">מידע על אפליקציה</string>
+
+    <string name="label_name">שם:</string>
+    <string name="label_path">נתיב:</string>
+    <string name="label_size">גודל:</string>
+    <string name="label_date">תאריך שינוי:</string>
+    <string name="label_md5">MD5:</string>
+    <string name="label_sha256">SHA-256:</string>
+</resources>
